@@ -1,13 +1,13 @@
 # require libraries/modules here
-require 'nokogiri'
+#require 'nokogiri'
 
-def create_project_hash
-  html = File.read('fixtures/kickstarter.html')
-  kickstarter = Nokogiri::HTML(html)
-end
+#def create_project_hash
+# html = File.read('fixtures/kickstarter.html')
+#  kickstarter = Nokogiri::HTML(html)
+#end
 
 require 'nokogiri'
-require 'open-uri'
+#require 'open-uri'
  
  def create_project_hash
  html= File.read('fixtures/kickstarter.html')
